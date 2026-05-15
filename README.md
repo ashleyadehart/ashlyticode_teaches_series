@@ -1,6 +1,6 @@
 # Ashlyticode Teaches : Learning to Code Through Metaphors & Real-Life Applications
 
-This folder contains a collection of interactive Jupyter notebooks designed to teach and explore a variety of Python programming, data analytics, and computer science concepts through metaphors and mental models.
+This folder contains a collection of interactive Jupyter notebooks designed to teach and explore a variety of Python programming, data analytics, and computer science concepts through metaphors, mental models, and real-life applications.
 
 The notebooks are structured to support beginner-to-intermediate learners through:
 - Real-world examples
