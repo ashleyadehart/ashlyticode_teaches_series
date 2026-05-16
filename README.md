@@ -94,7 +94,7 @@ pip install notebook
 
 ## Step 3 — Download or Clone This Repository
 
-### Option A — Download ZIP (Easiest for Beginners)
+### Option A — Download ZIP
 
 1. Click the green **Code** button on GitHub
 2. Click **Download ZIP**
@@ -146,7 +146,7 @@ This will:
 
 # Requirements
 
-Recommended tools:
+Tools:
 - Python 3.x
 - Jupyter Notebook or JupyterLab
 
