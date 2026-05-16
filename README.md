@@ -41,7 +41,7 @@ Topics may include, but are not limited to:
 
 # Teaching Philosophy
 
-Many notebooks incorporate real-world metaphors and visual explanations to make coding concepts easier to understand.
+Many notebooks incorporate real-world metaphors and visual explanations to make coding concepts easier to understand. My primary teaching goal is to help others create mental models and have metaphors to draw on when they go to solve coding problems. 
 
 Examples include:
 - Variables as labeled storage boxes
