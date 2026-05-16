@@ -56,12 +56,91 @@ The goal is to bridge the gap between:
 ---
 
 # How to Use
+Follow these steps to open and run the notebooks in this folder.
 
-1. Open the notebook in Jupyter Notebook or JupyterLab
-2. Read the explanations in the markdown cells
-3. Run the code cells step-by-step
-4. Experiment with modifying the code
-5. Complete any practice exercises included in the notebook
+---
+
+## 🖥️ Step 1 — Install Python
+
+Download and install Python from:
+
+:contentReference[oaicite:0]{index=0}
+
+### During installation:
+Make sure to check:
+
+```text
+Add Python to PATH
+```
+
+before clicking install.
+
+---
+
+## Step 2 — Install Jupyter Notebook
+
+Open:
+- Command Prompt
+- PowerShell
+- OR Git Bash
+
+Then run:
+
+```bash
+pip install notebook
+```
+
+---
+
+## Step 3 — Download or Clone This Repository
+
+### Option A — Download ZIP (Easiest for Beginners)
+
+1. Click the green **Code** button on GitHub
+2. Click **Download ZIP**
+3. Extract the ZIP file to a folder on your computer
+
+---
+
+### Option B — Clone with Git
+
+If Git is installed:
+
+```bash
+git clone <repository-url>
+```
+
+---
+
+## Step 4 — Open the Project Folder
+
+Open your terminal and navigate to the project folder.
+
+Example:
+
+```bash
+cd path/to/Python_Learning_Notebooks
+```
+
+Example on Windows:
+
+```bash
+cd C:/Users/YourName/Documents/Python_Learning_Notebooks
+```
+
+---
+
+## Step 5 — Launch Jupyter Notebook
+
+Run:
+
+```bash
+jupyter notebook
+```
+
+This will:
+- start the Jupyter server
+- automatically open your web browser
 
 ---
 
