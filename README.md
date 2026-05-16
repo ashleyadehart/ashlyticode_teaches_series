@@ -64,7 +64,7 @@ Follow these steps to open and run the notebooks in this folder.
 
 Download and install Python from:
 
-:contentReference[oaicite:0]{index=0}
+[Python Official Website](https://www.python.org/downloads/)
 
 ### During installation:
 Make sure to check:
