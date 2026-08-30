@@ -1,6 +1,6 @@
-# Ashlyticode Teaches : Learning to Code Through Metaphors & Real-Life Applications
+# Ashlyticode Teaches: Learning to Code Through Metaphors & Real-Life Applications
 
-This folder contains a collection of interactive Jupyter notebooks designed to teach and explore a variety of Python programming, data analytics, and computer science concepts through metaphors, mental models, and real-life applications.
+This GitHub repository contains a collection of interactive Jupyter notebooks designed to teach and explore a variety of Python programming, data analytics, and computer science concepts through metaphors, mental models, and real-life applications.
 
 The notebooks are structured to support beginner-to-intermediate learners through:
 - Real-world examples
@@ -11,9 +11,9 @@ The notebooks are structured to support beginner-to-intermediate learners throug
 
 ---
 
-# Purpose
+## Purpose
 
-The purpose of this folder is to:
+The purpose of this repository is to:
 - Build foundational Python programming skills
 - Strengthen problem-solving and computational thinking
 - Connect abstract coding concepts to real-world metaphors
@@ -22,7 +22,18 @@ The purpose of this folder is to:
 
 ---
 
-# Topics Covered
+## Learning Goals
+
+By working through these notebooks, learners should become more comfortable with:
+- Reading and understanding code
+- Translating problems into programming solutions
+- Debugging and experimenting independently
+- Building portfolio-ready projects
+- Applying Python to real-world datasets and problems
+
+---
+
+## Topics Covered
 
 Topics may include, but are not limited to:
 - Python fundamentals
@@ -39,9 +50,9 @@ Topics may include, but are not limited to:
 
 ---
 
-# Teaching Philosophy
+## Teaching Philosophy
 
-Many notebooks incorporate real-world metaphors and visual explanations to make coding concepts easier to understand. My primary teaching goal is to help others create mental models and have metaphors to draw upon when they are asked to solve coding problems. 
+My primary teaching goal is to help learners create mental models and have metaphors to draw upon when they are asked to solve coding problems. 
 
 Examples include:
 - Variables as labeled storage boxes
@@ -50,101 +61,72 @@ Examples include:
 - Objects as houses in a neighborhood
 - DataFrames as collections of structured objects
 
-The goal is to bridge the gap between:
+By working through these Jupyter notebooks, learners will be better able to bridge the gap between:
 > Real-world thinking → computational thinking → code implementation
 
 ---
 
-# How to Use
-Follow these steps to open and run the notebooks in this folder.
-
----
-
-## Step 1 — Install Python
-
-Download and install Python from:
-
-[Python Official Website](https://www.python.org/downloads/)
-
-### During installation:
-Make sure to check:
-
-```text
-Add Python to PATH
-```
-
-before clicking install.
-
----
-
-## Step 2 — Install Jupyter Notebook
-
-Open:
-- Command Prompt
-- PowerShell
-- OR Git Bash
-
-Then run:
+## How to Run This Project
+### 1. Clone This Repository
 
 ```bash
-pip install notebook
+git clone <https://github.com/ashleyadehart/ashlyticode_teaches_series.git>
 ```
 
----
-
-## Step 3 — Download or Clone This Repository
-
-### Option A — Download ZIP
-
-1. Click the green **Code** button on GitHub
-2. Click **Download ZIP**
-3. Extract the ZIP file to a folder on your computer
-
----
-
-### Option B — Clone with Git
-
-If Git is installed:
+### 2. Create a Virtual Environment
+Run the following command to create a virtual environment in a folder named `.venv`:
 
 ```bash
-git clone <repository-url>
+python -m venv .venv
+```
+
+### 3. Activate the Virtual Environment
+Activate the environment based on your operating system:
+
+#### **Windows (Command Prompt):**
+```bash
+.venv\Scripts\activate.bat
+```
+
+#### **Windows (PowerShell):**
+```bash
+.venv\Scripts\Activate.ps1
+```
+
+#### **macOS / Linux (Git Bash):**
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install Dependencies
+Once the virtual environment is activated, install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Open the Jupyter Notebook
+The project includes a Jupyter Notebook for exploring and analyzing the data.
+
+1. Open the project folder in **VS Code**.
+2. In the Explorer panel, open the `notebooks` folder.
+3. Double-click on the .ipynb file to open it.
+4. Click **Select Kernel** in the upper-right corner of the notebook.
+5. Select the Python environment used by the project.
+6. Run individual notebook cells using the **Run** button or select **Run All** to run all notebook cells at once. 
+
+> **Note:** If VS Code prompts you to install the Python or Jupyter extensions, install the recommended extensions from Microsoft.
+
+### Deactivating
+When you are done working on the project, you can return to your system's global Python environment by running:
+
+```bash
+deactivate
 ```
 
 ---
 
-## Step 4 — Open the Project Folder
-
-Open your terminal and navigate to the project folder.
-
-Example:
-
-```bash
-cd path/to/Python_Learning_Notebooks
-```
-
-Example on Windows:
-
-```bash
-cd C:/Users/YourName/Documents/Python_Learning_Notebooks
-```
-
----
-
-## Step 5 — Launch Jupyter Notebook
-
-Run:
-
-```bash
-jupyter notebook
-```
-
-This will:
-- start the Jupyter server
-- automatically open your web browser
-
----
-
-# Requirements
+## Requirements
 
 Tools:
 - Python 3.x
@@ -164,7 +146,7 @@ pip install pandas matplotlib numpy geopandas
 
 ---
 
-# Folder Structure
+## Folder Structure
 
 ```
 ashlyticode_teaches_series/
@@ -175,17 +157,6 @@ ashlyticode_teaches_series/
 
 ---
 
-# Learning Goals
-
-By working through these notebooks, learners should become more comfortable with:
-- Reading and understanding code
-- Translating problems into programming solutions
-- Debugging and experimenting independently
-- Building portfolio-ready projects
-- Applying Python to real-world datasets and problems
-
----
-
-# Notes
+## Notes
 
 These notebooks are designed as learning resources and may evolve over time as new topics and projects are added.
