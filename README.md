@@ -126,26 +126,6 @@ deactivate
 
 ---
 
-## Requirements
-
-Tools:
-- Python 3.x
-- Jupyter Notebook or JupyterLab
-
-Common libraries used:
-- pandas
-- matplotlib
-- numpy
-- geopandas (for GIS notebooks)
-
-Install packages with:
-
-```bash
-pip install pandas matplotlib numpy geopandas
-```
-
----
-
 ## Folder Structure
 
 ```
