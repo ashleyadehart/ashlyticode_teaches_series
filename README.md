@@ -126,7 +126,7 @@ deactivate
 
 ---
 
-## Project Folder Structure
+## Folder Structure
 
 ```
 ashlyticode_teaches_series/
