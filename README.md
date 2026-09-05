@@ -42,11 +42,11 @@ Topics may include, but are not limited to:
 - Classes and objects
 - Object-oriented programming
 - Pandas and DataFrames
+- Data cleaning
+- Exploratory Data Analysis (EDA)
 - Data visualization
 - GIS and geospatial analysis
-- Data analytics projects
 - Machine learning foundations
-- Interactive coding exercises
 
 ---
 
@@ -126,7 +126,7 @@ deactivate
 
 ---
 
-## Folder Structure
+## Project Folder Structure
 
 ```
 ashlyticode_teaches_series/
