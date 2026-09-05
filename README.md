@@ -106,10 +106,10 @@ pip install -r requirements.txt
 ```
 
 ### 5. Open the Jupyter Notebook
-The project includes a Jupyter Notebook for exploring and analyzing the data.
+This project includes Jupyter notebooks that learners can use to learn about various programming, computer science, and data analytics concepts.
 
 1. Open the project folder in **VS Code**.
-2. In the Explorer panel, open the `notebooks` folder.
+2. In the Explorer panel, click on a topic folder.
 3. Double-click on the .ipynb file to open it.
 4. Click **Select Kernel** in the upper-right corner of the notebook.
 5. Select the Python environment used by the project.
@@ -126,33 +126,14 @@ deactivate
 
 ---
 
-## Requirements
-
-Tools:
-- Python 3.x
-- Jupyter Notebook or JupyterLab
-
-Common libraries used:
-- pandas
-- matplotlib
-- numpy
-- geopandas (for GIS notebooks)
-
-Install packages with:
-
-```bash
-pip install pandas matplotlib numpy geopandas
-```
-
----
-
-## Folder Structure
+## Project Folder Structure
 
 ```
 ashlyticode_teaches_series/
-│
-├── classes_and_objects_python/
-└── README.md
+├── python/
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
